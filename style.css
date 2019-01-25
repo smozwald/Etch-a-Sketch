@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+#game-container {
+    margin: 1em;
+    width:32em;
+    height:32em;
+    border: 1px black solid;
+    overflow: hidden;
+}
+
+
+
+.cell {
+    background-color:white;
+    border: 1px black solid;
+    height: 6.25%;
+    width:6.25%;
+    float: left;
+    display:inline-block;
+}
