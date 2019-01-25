@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+}
+
 #game-container {
-    margin: 1em;
+    margin: 0 auto;
     width:32em;
     height:32em;
     border: 1px black solid;
@@ -13,10 +17,11 @@
 
 
 .cell {
-    background-color:white;
     border: 1px black solid;
-    height: 6.25%;
-    width:6.25%;
     float: left;
-    display:inline-block;
+    display: inline-block;
+}
+
+#header{
+    margin: 2em;
 }
